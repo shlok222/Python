@@ -87,44 +87,44 @@ else:
     print(s.upper())
 
 #11.wap to check a number is +ve/-ve number (take user input)
-# num=eval(input("Enter a number"))
-# if num>0:
-#     print("Positive number")
-# else:
-#     print("Negative number")
+num=eval(input("Enter a number"))
+if num>0:
+    print("Positive number")
+else:
+    print("Negative number")
 
-#12.wap to check a data is individual or collection data type or not (take user input)
-# element=eval(input("Enter element"))
+12.wap to check a data is individual or collection data type or not (take user input)
+element=eval(input("Enter element"))
 
 
 
 #13.wap to check whether the specified character is present in the given string
 
-# s="Vaishnavi"
-# c=input("enter a character")
-# if c in s:
-#     print("character is present")
-# else:
-#     print("character is not present")
+s="Vaishnavi"
+c=input("enter a character")
+if c in s:
+    print("character is present")
+else:
+    print("character is not present")
 
 # 14.wap to check the length of dictionary and length of dictionary is even or Not if even
 # print as it is or else add a item and make it even
 
 
-# D={"a":"apple","b":"ball","c":"cat"}
-# if len(D)%2==0:
-#     print(f"dictionary is even {D}")
-# else:
-#     D['d']='dog'
-#     print(f"dictionary is odd {D}")
+D={"a":"apple","b":"ball","c":"cat"}
+if len(D)%2==0:
+    print(f"dictionary is even {D}")
+else:
+    D['d']='dog'
+    print(f"dictionary is odd {D}")
 
 # 15.wap to check the given number is greater than 5,if it is greater convert that number into negative number
 
-# num=eval(input("enter a number"))
-# if num>5:
-#     print(-abs(num))
-# else:
-#     print(num)
+num=eval(input("enter a number"))
+if num>5:
+    print(-abs(num))
+else:
+    print(num)
 
 
 
@@ -132,40 +132,40 @@ else:
 # 16.wap to check the given number is smaller than 10 ,if it is smaller find the exponent of it
 # else print the number as it is
 # '''
-# # num=eval(input("enter a number"))
-# # if num<10:
-# #     print(num**2)
-# # else:
-# #     print(num)
+num=eval(input("enter a number"))
+if num<10:
+    print(num**2)
+else:
+    print(num)
 #
 # '''
 # 17.wap to check the given number is odd, if it is odd
 # divide it by 2 and print reminder and quotient else print it is even (take user input)
 # '''
-# # num=eval(input("enter a number"))
-# # if num%2==1:
-# #     q=num//2
-# #     r=num%2
-# #     print(f"quotient {q} and reminder {r}")
-# # else:
-# #    print("number is even")
+num=eval(input("enter a number"))
+if num%2==1:
+    q=num//2
+    r=num%2
+    print(f"quotient {q} and reminder {r}")
+else:
+   print("number is even")
 #
 # ''
 # 18.wap to check if the given character is alphabets or Not ,
 # if it is alphabet create a replica of it for 2 times. (take user input)
 # '''
-# # c=input("enter a character")
-# # if c.isalpha():
-# #     print(c*2)
-# # else:
-# #     print("given character is not alphabate")
+c=input("enter a character")
+if c.isalpha():
+    print(c*2)
+else:
+    print("given character is not alphabate")
 #
 # '''
 # 19.WAP to check whether the given number value is divisible by 6 or not,
 # if it is divisible cube that number or else perform left shift operation by 3 (take user input)
 # '''
-# num=eval(input("enter a number"))
-# if num%6==0:
-#     print(6**3)
-# else:
-#     print(num<<3)
+num=eval(input("enter a number"))
+if num%6==0:
+    print(6**3)
+else:
+    print(num<<3)
