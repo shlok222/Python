@@ -6,85 +6,85 @@ else:
     print("odd number")
 
 #2.wap to check whether the male and female are eligible for wedding (take user input)
-# maleage=eval(input("Enter male age"))
-# femaleage=eval(input("Enter female age"))
-# if maleage>=21 and femaleage>=18:
-#     print("Elgible for wedding")
-# else:
-#     print("Not Eligible")
-#
+maleage=eval(input("Enter male age"))
+femaleage=eval(input("Enter female age"))
+if maleage>=21 and femaleage>=18:
+    print("Elgible for wedding")
+else:
+    print("Not Eligible")
+
 
 #3.wap to return uppercase if the char is lower,else return same char (by taking user input)
 
-# value=eval(input("Enter a charachter"))
-# if value.islower():
-#     print(value.upper())
-# else:
-#     print(value)
+value=eval(input("Enter a charachter"))
+if value.islower():
+    print(value.upper())
+else:
+    print(value)
 
 
 #4.wap to return lower case if the upper ,else return same char (by taking user input)
 
-# value=eval(input("Enter a charachter"))
-# if value.'upper():
-#     print(value.lower())
-# else:
-#     print(value)
+value=eval(input("Enter a charachter"))
+if value.'upper():
+    print(value.lower())
+else:
+    print(value)
 
 #5.wap to find greater value among the two number
 
-# n1=91
-# n2=78
-# if n1>n2:
-#     print(n1)
-# else:
-#     print(n2)
+n1=91
+n2=78
+if n1>n2:
+    print(n1)
+else:
+    print(n2)
 
 
 #6.wap to check if the given number is even or not,if it is not even add+1 and make it even
 # (take user input)
 
-# num=eval(input("Enter a number"))
-# if num%2==0:
-#     print("It is a even number")
-# else:
-#     print(num+1)
+num=eval(input("Enter a number"))
+if num%2==0:
+    print("It is a even number")
+else:
+    print(num+1)
 
 
 
 #7.wap to check whether the first character in the given string is starting with uppercase
 # or Not if it is not Then capitalize it
-#
-# string='python'
-# if string[0].isupper():
-#     print(string)
-# else:
-#     print(string.capitalize())
+
+string='python'
+if string[0].isupper():
+    print(string)
+else:
+    print(string.capitalize())
 
 
 #8.wap to check if the given number is even ,
 # if it is even reduce it to its Half else make exponent (take user input)
-# num=eval(input("Enter a number"))
-# if num%2==0:
-#     print(num/2)
-# else:
-#     print(num**2)
+num=eval(input("Enter a number"))
+if num%2==0:
+    print(num/2)
+else:
+    print(num**2)
 
 
 
 #9.wap to check number should be divisible by 3 and 7 (take user input)
-# num=eval(input("enter a number"))
-# if num%3==0 and num%7==0:
-#     print("entered number is  divisible by 4 and 7")
-# else:
-#     print("entered number is not divisible by 4 and 7")
+num=eval(input("enter a number"))
+if num%3==0 and num%7==0:
+    print("entered number is  divisible by 4 and 7")
+else:
+    print("entered number is not divisible by 4 and 7")
 
 #10.wap if the length of string is even then reverse else convert into upper case (take user input)
-# s=input("Enter a string")
-# if len(s)%2==0:
-#     print("Given string is even")
-# else:
-#     print(s.upper())
+s=input("Enter a string")
+if len(s)%2==0:
+    print("Given string is even")
+else:
+    print(s.upper())
 
 #11.wap to check a number is +ve/-ve number (take user input)
 # num=eval(input("Enter a number"))
