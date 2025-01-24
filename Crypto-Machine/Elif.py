@@ -82,65 +82,65 @@ else:
 #
 # note:-->max marks is 100
 
-# marks1=eval(input("Enter the maths marks"))
-# marks2=eval(input("Enter the sci marks"))
-# marks3=eval(input("Enter the bio marks"))
-# marks4=eval(input("Enter the draw marks"))
-# marks5=eval(input("Enter the computer marks"))
-# average=marks1+marks2+marks3+marks4+marks5
-# total=average/5
-#
-# if total>=90 and total<=100:
-#     print("Distinction")
-# elif total>=75 and total<=89:
-#     print("first Class")
-# elif total>=60 and total<=74:
-#     print("second class")
-# elif total>=50 and total<=59:
-#     print("Third Class")
-# else:
-#     print("fail")
+marks1=eval(input("Enter the maths marks"))
+marks2=eval(input("Enter the sci marks"))
+marks3=eval(input("Enter the bio marks"))
+marks4=eval(input("Enter the draw marks"))
+marks5=eval(input("Enter the computer marks"))
+average=marks1+marks2+marks3+marks4+marks5
+total=average/5
+
+if total>=90 and total<=100:
+    print("Distinction")
+elif total>=75 and total<=89:
+    print("first Class")
+elif total>=60 and total<=74:
+    print("second class")
+elif total>=50 and total<=59:
+    print("Third Class")
+else:
+    print("fail")
 #
 # 8.wap to check eligibility for marriage
 
-# maleage=eval(input("ENter male age"))
-# femaleage=eval(input("Enter female age"))
-# if maleage>=21 and femaleage>=18:
-#     print("Both are eligible for marriage")
-# elif maleage>=21 and femaleage<=18:
-#     print("female is not eligible for marriage")
-# elif maleage<=21 and femaleage>=18:
-#     print("Male is not eligible for marriage")
-# else:
-#     print("Both are not eligible for marriage")
+maleage=eval(input("ENter male age"))
+femaleage=eval(input("Enter female age"))
+if maleage>=21 and femaleage>=18:
+    print("Both are eligible for marriage")
+elif maleage>=21 and femaleage<=18:
+    print("female is not eligible for marriage")
+elif maleage<=21 and femaleage>=18:
+    print("Male is not eligible for marriage")
+else:
+    print("Both are not eligible for marriage")
 
 # 9.wap to give discount to customer based on total price(p1+p2+p3)
 # 1000 to 3000 price 500 discount and 3001 to 5000 price 1000 discount more than 5001 price
 # 1200 discount and less than 1000 price no discount
 
 
-# product1=eval(input("Enter the amount1"))
-# product2=eval(input("Enter the amount2"))
-# product3=eval(input("Enter the amount3"))
-# total=product1+product2+product3
-# print(total)
-# if total<=1000:
-#     print("No discount")
-# elif total>=1000 and total<=3000:
-#     print(total-500)
-# elif total>=3001 and total<=5000:
-#     print(total-1000)
-# else:
-#     print(total-1200)
+product1=eval(input("Enter the amount1"))
+product2=eval(input("Enter the amount2"))
+product3=eval(input("Enter the amount3"))
+total=product1+product2+product3
+print(total)
+if total<=1000:
+    print("No discount")
+elif total>=1000 and total<=3000:
+    print(total-500)
+elif total>=3001 and total<=5000:
+    print(total-1000)
+else:
+    print(total-1200)
 
 
 
 
 # 10.wap to check if the given number is even or odd or Zero
-# num=eval(input("Enter number"))
-# if num%2==0:
-#     print("Given number is even number")
-# elif num%2==1:
-#     print("Given number is odd number")
-# else:
-#     print("zero")
+num=eval(input("Enter number"))
+if num%2==0:
+    print("Given number is even number")
+elif num%2==1:
+    print("Given number is odd number")
+else:
+    print("zero")
