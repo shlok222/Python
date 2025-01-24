@@ -12,70 +12,70 @@ else:
     print("It is special character")
 
 # without using inbuilt
-# ele = input("Enter a character")
-# if ord("A")<=ord(ele)<=ord("Z"):
-#     print("its uppercase")
-# elif ord("a")<=ord(ele)<=ord("z"):
-#     print("its lowercase")
-# elif ord("0")<=ord(ele)<=ord("9"):
-#     print("its number")
-# else:
-#     print("special")
+ele = input("Enter a character")
+if ord("A")<=ord(ele)<=ord("Z"):
+    print("its uppercase")
+elif ord("a")<=ord(ele)<=ord("z"):
+    print("its lowercase")
+elif ord("0")<=ord(ele)<=ord("9"):
+    print("its number")
+else:
+    print("special")
 
 
 # 2.wap to check a data is a sequence/iterable/individual data type
 
-# char=eval(input("Enter a element"))
-# if isinstance(char,(int,float,complex,bool)):
-#     print("indiviual datatype")
-# elif isinstance(char,(str,list,tuple)):
-#     print("Sequence datatype")
-# else:
-#     print("COllection datattype")
+char=eval(input("Enter a element"))
+if isinstance(char,(int,float,complex,bool)):
+    print("indiviual datatype")
+elif isinstance(char,(str,list,tuple)):
+    print("Sequence datatype")
+else:
+    print("COllection datattype")
 
 # 3.wap if input is string return its length,else if input is list pop element,else
 #  if input is tuple reverse else invalid input
 #
-# ele=eval(input("Enter a element"))
-# if isinstance(ele,str):
-#     print(len(ele))
-# elif isinstance(ele,list):
-#     print(ele.pop())
-# elif isinstance(ele,tuple):
-#     print(ele[::-1])
-# else:
-#     print("invalid output")
+ele=eval(input("Enter a element"))
+if isinstance(ele,str):
+    print(len(ele))
+elif isinstance(ele,list):
+    print(ele.pop())
+elif isinstance(ele,tuple):
+    print(ele[::-1])
+else:
+    print("invalid output")
 
 # 4.wap to check a age belongs to category 0 to 17 child and 18 to 30 ur adult,31 to 60 ur men,
 # 61 to 100 senior citizen,else
 #  invalid
 
-# num=eval(input("Enter a number"))
-# if num>=0 and num<=17:
-#     print("child")
-# elif num >= 18 and num <= 30:
-#     print("adult")
-# elif num >= 31 and num <= 60:
-#      print("men")
-# elif num >= 61 and num <= 100:
-#      print("senior citizen")
-# else:
-#     print("invalid")
+num=eval(input("Enter a number"))
+if num>=0 and num<=17:
+    print("child")
+elif num >= 18 and num <= 30:
+    print("adult")
+elif num >= 31 and num <= 60:
+     print("men")
+elif num >= 61 and num <= 100:
+     print("senior citizen")
+else:
+    print("invalid")
 
 # 5.wap to check which is smallest value among 3 numbers
-# a=65
-# b=34
-# c=76
+a=65
+b=34
+c=76
 
-# if a<b and a<c:       #65<34 and 65<76
-#     print("a is smaller",a)
-#
-#
-# elif b<a and b<c:           #34<65 and 34<76
-#     print("b is smaller",b)
-#
-# else:
-#     print("c is smaller",c)
+if a<b and a<c:       #65<34 and 65<76
+    print("a is smaller",a)
+
+
+elif b<a and b<c:           #34<65 and 34<76
+    print("b is smaller",b)
+
+else:
+    print("c is smaller",c)
 
 # 6.wap to take marks of 5 sub,calculate the average if the average is b/w 90-100 print Distinction
 # if 75-89 print first class and if it's 60-74 print second class, if 50-59 print Third class,below 50 is fail
