@@ -62,87 +62,87 @@ else:
 #4)4.wap to validate facebook username and password
 # condition is:---> username-->"python"  and password="python masters"
 
-# username=eval(input("Enter username"))
-# password=eval(input("Enter password"))
-# if username=="python":
-#     print("valid username")
-#     if password=="python masters":
-#         print("valid password")
-#     else:
-#         print("invalid pass")
-# else:
-#     print("invalid username")
+username=eval(input("Enter username"))
+password=eval(input("Enter password"))
+if username=="python":
+    print("valid username")
+    if password=="python masters":
+        print("valid password")
+    else:
+        print("invalid pass")
+else:
+    print("invalid username")
 
-#6)wap to find middle element is even or odd
+6)wap to find middle element is even or odd
 
-# s=[3,4,6,7,9,1,5]
-# mid=len(s)//2
-# x=s[mid]
-# if x%2==0:
-#     print("Middle number is even")
-# else:
-#     print("middle number is odd")
+s=[3,4,6,7,9,1,5]
+mid=len(s)//2
+x=s[mid]
+if x%2==0:
+    print("Middle number is even")
+else:
+    print("middle number is odd")
 
 #7.wap to purchase a phone from the shopping app
-# apps=['flipkart','amazon']
-# print(apps)
-# user1=eval(input("enter the app name from above list"))
-# if user1 in apps:
-#     print(f"you are selected {user1} app")
-#     categories = ['electronics', 'mobile', 'fashion', 'furnitures']
-#     print(categories)
-#     user2=eval(input("please enter categories from above list"))
-#     if user2 in categories:
-#         print(f"you are selected {user1} app and selected {user2} categories ")
-#         mobile = ["iphone", "samsung", "mi", "oppo"]
-#         print(mobile)
-#         user3=eval(input("enter mobile name from above list"))
-#         if user3 in mobile:
-#             print(f"you are selected {user3} and please complete payment")
-#         else:
-#             print("please selected correct mobile brand, this is invalid mobile name")
-#     else:
-#         print("invalid category")
-# else:
-#     print("invalid app name")
+apps=['flipkart','amazon']
+print(apps)
+user1=eval(input("enter the app name from above list"))
+if user1 in apps:
+    print(f"you are selected {user1} app")
+    categories = ['electronics', 'mobile', 'fashion', 'furnitures']
+    print(categories)
+    user2=eval(input("please enter categories from above list"))
+    if user2 in categories:
+        print(f"you are selected {user1} app and selected {user2} categories ")
+        mobile = ["iphone", "samsung", "mi", "oppo"]
+        print(mobile)
+        user3=eval(input("enter mobile name from above list"))
+        if user3 in mobile:
+            print(f"you are selected {user3} and please complete payment")
+        else:
+            print("please selected correct mobile brand, this is invalid mobile name")
+    else:
+        print("invalid category")
+else:
+    print("invalid app name")
 
 
 # 8.wap to give 10% off only who is purchasing in credit card and min 3 product
 # should purchase and each product price should be more than 500
 
-# pyment_mod=eval(input("please select payment mode(debit card/credit card):-"))
-# product1=eval(input("please enter price"))
-# product2=eval(input("please enter price"))
-# product3=eval(input("please enter price"))
-#
-#
-# if pyment_mod=="credit card":
-#     print("you are selected credit card")
-#     if product1>=500 and product2>=500 and product3>=500:
-#         print(f"you got 10% discount ")
-#     else:
-#         print("sorry,no discount")
-# else:
-#     print("on debit card discount is not available")
+pyment_mod=eval(input("please select payment mode(debit card/credit card):-"))
+product1=eval(input("please enter price"))
+product2=eval(input("please enter price"))
+product3=eval(input("please enter price"))
+
+
+if pyment_mod=="credit card":
+    print("you are selected credit card")
+    if product1>=500 and product2>=500 and product3>=500:
+        print(f"you got 10% discount ")
+    else:
+        print("sorry,no discount")
+else:
+    print("on debit card discount is not available")
 
 # 9.wap to perform list operations user should enter only list data type,
 # if options 1 pop().options 2 sort() options 3 clear() invalid options,invalid data type
 
-# data=eval(input("enter the element"))
-# if isinstance(data,list):  #(variablename,datatype)
-#     options=eval(input("Enter the number(1,2,3)"))
-#
-#     if options==1:
-#         print(data.pop())
-#
-#     elif options==2:
-#         data.sort()
-#         print(data)
-#
-#     elif options==3:
-#        data.clear()
-#        print(data)
-#     else:
-#         print("invalid options")
-# else:
-#     print("enter proper element")
+data=eval(input("enter the element"))
+if isinstance(data,list):  #(variablename,datatype)
+    options=eval(input("Enter the number(1,2,3)"))
+
+    if options==1:
+        print(data.pop())
+
+    elif options==2:
+        data.sort()
+        print(data)
+
+    elif options==3:
+       data.clear()
+       print(data)
+    else:
+        print("invalid options")
+else:
+    print("enter proper element")
