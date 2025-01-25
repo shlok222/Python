@@ -38,26 +38,26 @@ else:
 
 # 1)wap to check whether the given number is even and greater than 5
 
-# num=10
-# if num%2==0 and num>=5:
-#     print('number is even')
+num=10
+if num%2==0 and num>=5:
+    print('number is even')
 
 #2.wap to check the number is odd and check if the number is divisible by 7
 
-# num=35
-# if num%2==1:
-#     if num%7==0:
-#         print("number is odd")
-# else:
-#     print("number is even")
-#
-# #3)
-#     num = 33
-#     if num % 2 == 1:
-#         if num % 7 == 0:
-#             print("number is odd")
-#     else:
-#         print("number is even")
+num=35
+if num%2==1:
+    if num%7==0:
+        print("number is odd")
+else:
+    print("number is even")
+
+#3)
+    num = 33
+    if num % 2 == 1:
+        if num % 7 == 0:
+            print("number is odd")
+    else:
+        print("number is even")
 
 #4)4.wap to validate facebook username and password
 # condition is:---> username-->"python"  and password="python masters"
