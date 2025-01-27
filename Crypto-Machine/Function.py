@@ -47,3 +47,67 @@ def Square(l):
         v.append(i**2)
     print(v)
 Square(l)
+
+# 6. Waf to search for character in a given string and return corresponding index
+
+string="coding part is done"
+
+def index(string):
+    a = eval(input('Enter a character from a string'))
+    for i in range(len(string)):
+         if string[i] == a:
+             print(i)
+index("coding part is done")
+
+# 8.Wap to read 3 numbers from the user,
+# first two numbers should be added and the result of addition should be subtracted by third number
+
+def Num():
+    a = eval(input('Enter a no'))
+    b = eval(input('Enter a no'))
+    c = eval(input('Enter a no'))
+
+    d = a + b
+    e = c - d
+    print('Sum =',d)
+    print('After Subtraction =',e)
+
+Num()
+
+# def Number(a,b,c):
+#     x=a+b
+#     y=x-c
+#     return(x,y)
+# print(Number(6,7,8))
+
+# 9. Wap to find square,cube,square root and cube root of a number
+
+def Square_Cube_root(x):
+    return x**2,x3,x0.3333,x*0.5
+Square_Cube_root(2)
+
+# 10. Wap to check the given characters is alphabets or digit or special characters
+
+# def Chr_Alp():
+#     a = eval(input('Enter a no or character'))
+#     if a.isalpha():
+#         print('The Given input is Alphabet')
+#     elif a.isdigit():
+#         print('The Given input is Character')
+#     else:
+#         print('It is a special Character')
+# Chr_Alp()
+
+def Char(a):
+   if a.isalpha():
+       print("its alpha")
+
+   elif a.isdigit():
+       print("is digit")
+
+   else:
+       print("its special")
+
+Char('abcd')
+Char('1234')
+Char('@#$')
