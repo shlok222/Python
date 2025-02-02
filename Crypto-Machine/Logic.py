@@ -183,3 +183,88 @@ def Swap(n,m):
     print(n,m)
 
 Swap(2,3)
+
+# Swap 2 Nos by function
+
+# Input: a = 2, b = 3
+# Output: a = 3, b = 2
+
+def Swap(n,m):
+    n = n + m
+    m = n - m 
+    n = n - m
+    print(n,m)
+
+Swap(2,3)
+
+# Sum of Digits by fucntion
+
+def Sum(n):
+    Sum = 0 
+    for i in str(n):
+        Sum += int(i)
+    print(Sum)
+
+Sum(222)
+
+# def Sum(n):
+
+#     Sum = 0
+#     while n != 0:
+#         a = n % 10
+#         Sum += a
+#         n = n // 10
+#     print(Sum)
+
+# Sum(222)
+
+# Prime Number 
+
+def Prime(n):
+    if n <= 1:
+        return False
+        
+    for i in range(2,n):
+        if n % i == 0:
+            return False 
+        else:
+            return True
+
+print(Prime(15))
+
+# Distance between 2 points 
+
+def distance(x1, y1, x2, y2):
+   
+  # Calculating distance
+   
+  return (((x2 - x1)**2 +(y2 - y1)**2)**0.5)
+ 
+# Drivers Code
+ 
+print( distance(3, 4, 4, 3))
+
+# Vaild Triangle
+
+# Given three sides, check whether triangle is valid or not. 
+# Examples: 
+ 
+
+# Input :  a = 7, b = 10, c = 5 
+# Output : Valid
+
+# Approach: A triangle is valid if sum of its two sides is greater than the third side. 
+# If three sides are a, b and c, then three conditions should be met. 
+ 
+# 1.a + b > c 
+# 2.a + c > b 
+# 3.b + c > a  
+
+def Triangle(a,b,c):
+    
+    if (a + b > c) or (a + c > b) or (b + c > a) : 
+        return False
+    else: 
+        return True 
+
+Triangle(2,3,5)
