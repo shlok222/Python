@@ -137,3 +137,49 @@ def sumOfDigits(n):
     return sum
 
 print(sumOfDigits(1234))
+
+# Even or Odd
+
+def Ans(n):
+    if n % 2 == 0:
+        print(n,'is even no.')
+    else:
+        print(n,'is odd no.')
+
+Ans(2)
+
+# Table by function 
+
+def Table(n):
+    for i in range(1,11):
+        print(n,'*',i,'=',n * i)
+
+Table(2)
+
+# Sum of Natural Nos by function
+
+# Input: n = 3
+# Output: 6
+# Explanation: Note that 1 + 2 + 3 = 6
+
+def Sum(n):
+    Sum = 0
+
+    for i in range(1,n+1):
+        Sum += i
+    print(Sum)
+
+Sum(3)
+
+# Swap 2 Nos by function
+
+# Input: a = 2, b = 3
+# Output: a = 3, b = 2
+
+def Swap(n,m):
+    n = n + m
+    m = n - m 
+    n = n - m
+    print(n,m)
+
+Swap(2,3)
