@@ -88,3 +88,52 @@ Sum = 0
 for i in range(1,n+1):
     Sum += a*(r**i)
 print(Sum)
+
+# Simple Intrest
+
+# Given Principal p, Rate r and Time t, the task is to calculate Simple Interest.
+
+# Input: p = 10000, r = 5, t = 5 
+# Output:2500 
+# Explanation: We need to find simple interest on  Rs. 10,000 at the rate of 5% for 5  units of time. 
+
+p = 10000
+r = 5
+t = 5
+
+SI = (p * t * r)/100
+print(SI)
+
+# Area of Circle
+
+Radius = eval(input('Enter the radius of circle'))
+
+Area = 3.14 * Radius ** 2
+print('Area of circle with raduis',Radius,'is',Area)
+
+# Sum of Digits
+
+a = input('Enter 2 or more than 2 digit no')
+Sum = 0
+
+for i in a:
+    Sum += int(i)
+print(Sum)
+
+# Iterative Python Code to find sum of digits
+
+def sumOfDigits(n):
+    sum = 0
+    while n != 0:
+
+        # Extract the last digit
+        last = n % 10
+
+        # Add last digit to sum
+        sum += last
+
+        # Remove the last digit
+        n //= 10
+    return sum
+
+print(sumOfDigits(1234))
