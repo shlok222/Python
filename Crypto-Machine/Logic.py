@@ -311,3 +311,107 @@ def gcd(a, b):
     return result
 
 gcd(98,56)
+
+# Perfect Number
+
+# Input: n = 15
+# Output: false
+# Divisors of 15 are 1, 3 and 5. Sum of 
+# divisors is 9 which is not equal to 15.
+
+def Perfect(n):
+    Sum = 0
+    for i in range(1,n):
+        if n % i == 0:
+            Sum += i
+    print(Sum)
+
+    if Sum != n:
+        return False
+    else:
+        return True
+
+Perfect(6)
+
+# Perfect Number
+
+# Input: n = 15
+# Output: false
+# Divisors of 15 are 1, 3 and 5. Sum of 
+# divisors is 9 which is not equal to 15.
+
+def Perfect(n):
+    Sum = 0
+    for i in range(1,n):
+        if n % i == 0:
+            Sum += i
+    print(Sum)
+
+    if Sum != n:
+        return False
+    else:
+        return True
+
+Perfect(6)
+
+# Armstrong Number
+
+# def Arm(n):
+#     Sum = 0
+#     for i in str(n):
+#         Sum += int(i)**3
+#     print(Sum)
+
+#     if Sum == n:
+#         print(n,'is an amstrong number')
+#     else:
+#         print(n,'is not an amstrong number')
+
+# Arm(120)
+
+
+def Arm(n):
+    Main_no = n
+    Sum = 0
+    
+    while n != 0:
+        Last_No = n % 10
+        Sum += Last_No**3
+        n //= 10
+    print(Sum)
+    
+    if Sum == Main_no:
+        print(Main_no,'is an amstrong number')
+    else:
+        print(Main_no,'is not an amstrong number')
+        
+Arm(153)
+
+# Subtract 1 without arithmetic
+
+def Sub(n):
+    c = n + ~0
+    print(c)
+
+Sub(12)
+
+# N-th term of 1, 3, 6, 10, 15, 21…
+
+# Given a number n, find the n-th term in the series 1, 3, 6, 10, 15, 21…
+
+# Examples: 
+
+# Input : 3
+# Output : 6 -- As the #rd no in the series is 6 so output is 6
+
+def term(n): 
+    return n *(n + 1) / 2
+      
+term(2) 
+
+#Digit to Binanry
+def Bi(n):
+    Result =[]
+    while n == 0 or n == 1:
+        c = n / 2
+        Result.append(c)
