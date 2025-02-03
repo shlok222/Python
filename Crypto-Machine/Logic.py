@@ -268,3 +268,46 @@ def Triangle(a,b,c):
         return True 
 
 Triangle(2,3,5)
+
+
+# Factorial of a Number
+
+def Fac(n):
+    Sum = 1
+    for i in range(1,n+1):
+        Sum *= i
+    print(Sum)
+
+Fac(5)
+
+# Square Root
+
+# import math
+
+# def Sqroot(n):
+#     print(math.sqrt(n))
+
+# Sqroot(9)
+
+def Sqroot(n):
+    a = n ** 0.5    # Like **2, **3 is used for Square and Cube - **0.5 is used for Squareroot
+    print(a)
+
+Sqroot(4)
+
+# GCD or HCF (Follow Link - https://www.geeksforgeeks.org/program-to-find-gcd-or-hcf-of-two-numbers/)
+
+def gcd(a, b):
+
+    # Find minimum of a and b
+    result = min(a, b)
+
+    while result:
+        if a % result == 0 and b % result == 0:
+            break
+        result -= 1
+
+    # Return the gcd of a and b
+    return result
+
+gcd(98,56)
