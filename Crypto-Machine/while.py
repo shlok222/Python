@@ -106,3 +106,31 @@ Radius = eval(input('Enter the radius of circle'))
 
 Area = 3.14 * Radius ** 2
 print('Area of circle with raduis',Radius,'is',Area)
+
+# wap to reverse internal content of each word.
+
+a = input('Enter a string')
+i = 0
+b = a.split()
+
+while i < len(b):
+    print(b[i][::-1])
+    i += 1
+
+ # wap to iterate over a string and print each character twice
+
+a = input('Enter a string')
+i = 0
+
+while i < len(a):
+    print(a[i]*2)
+    i += 1
+
+# wap to iterate over a string and print each character twice
+
+a = input('Enter a string')
+i = 0
+
+while i < len(a):
+    print(a[i]*2)
+    i += 1
