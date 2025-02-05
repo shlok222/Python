@@ -133,4 +133,30 @@ i = 0
 
 while i < len(a):
     print(a[i]*2)
+    i += 
+    
+ # wap to print all the consonents from the given string.
+
+a = input('Enter a string')
+i = 0
+vowels = ('a','e','i','o','u')
+
+# while i < len(a):
+#     if a[i] not in 'aeiouAEIOU':
+#         print(a[i])
+#         i += 1
+
+while i < len(a):
+    if a[i] in vowels:
+        print(a[i])
+    i += 1
+
+# wap to reverse internal content of each word.
+
+a = input('Enter a sentence')
+b = a.split()
+i = 1
+
+while i < len(b):
+    print(b[i][::-i])
     i += 1
