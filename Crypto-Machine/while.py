@@ -189,3 +189,22 @@ while i < len(b):
         final.append(b[i][::-1])
     i += 1
 print(final)
+
+# wap to enter name, percentage and marks in a dictionary and print information
+
+a = input('Enter your name')
+b = eval(input('Enter your percentage'))
+c = int(input('Enter your marks'))
+
+d = {}
+d.setdefault("name",a)
+d.setdefault("percentage",b)
+d.setdefault("marks",c)
+print(d)
+
+# wap to prompt user to enter some name until they enter "Python"
+    
+name = ""
+while name != "python":
+    name = input('Enter a prompt')
+    print("prompted python")
