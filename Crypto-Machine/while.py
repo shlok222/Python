@@ -160,3 +160,32 @@ i = 1
 while i < len(b):
     print(b[i][::-i])
     i += 1
+
+# wap to display the sum of first n numbers.
+
+a = eval(input('Enter no'))
+i = 0
+Sum = 0
+
+while i <= a:
+    Sum += i
+    i += 1
+print(Sum)
+
+# wap to achieve given output.
+#  output = "one owt three ruof five xis seven"
+a ="one two three four five six seven"
+
+b = a.split()
+print(b)
+
+final = []
+i = 0
+
+while i < len(b):
+    if i % 2 == 0:
+        final.append(b[i])
+    else:
+        final.append(b[i][::-1])
+    i += 1
+print(final)
