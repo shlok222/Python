@@ -222,3 +222,14 @@ while i < len(list1):
     i += 1
 
 print(list2)
+
+nums1 = [1,2,3,0,0,0]
+nums2 = [2,5,6]
+num3 = []
+
+for i in range(0,3):
+    num3.append(nums1[i])
+    num3.append(nums2[i])
+
+num3.sort()
+print(num3)
