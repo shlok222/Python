@@ -208,3 +208,17 @@ name = ""
 while name != "python":
     name = input('Enter a prompt')
     print("prompted python")
+
+
+# wap to iterate in a list if list elements are string type then store them in separate list
+
+list1 = ["hello", 10, 20.55, True, "hai", "bye"]
+list2 = []
+i = 0
+
+while i < len(list1):
+    if isinstance(list1[i],str):
+        list2.append(list1[i])
+    i += 1
+
+print(list2)
