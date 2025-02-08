@@ -232,4 +232,4 @@ for i in range(0,3):
     num3.append(nums2[i])
 
 num3.sort()
-print(num3
+print(num3)
