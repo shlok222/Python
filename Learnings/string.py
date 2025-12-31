@@ -34,15 +34,28 @@
 
 # print(count)
 
-x = ["a","e","i","o","u"]
+# x = ["a","e","i","o","u"]
 
-def count_vowels(string):
-    count = 0
-    for i in string:
-        if i in x:
-            count += 1
+# def count_vowels(string):
+#     count = 0
+#     for i in string:
+#         if i in x:
+#             count += 1
             
-    print(count)
+#     print(count)
 
-count_vowels("mountain")
+# count_vowels("mountain")
 
+# 4. Count the number of words in a string
+string = "I love Python programming"
+x = string.split()
+
+print(len(x))
+
+# Another Way for counting the number of words in a string
+
+def in_words(string):
+    a = string.split()
+    print(len(a))
+    
+in_words("I love Python programming")
