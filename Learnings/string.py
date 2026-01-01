@@ -103,6 +103,8 @@ def remove_space(string):
 
 remove_space("web 3 is cool")
 
+# 7. Check if two strings are anagrams
+
 
 
 
