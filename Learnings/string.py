@@ -47,15 +47,62 @@
 # count_vowels("mountain")
 
 # 4. Count the number of words in a string
-string = "I love Python programming"
-x = string.split()
+# string = "I love Python programming"
+# x = string.split()
 
-print(len(x))
+# print(len(x))
 
-# Another Way for counting the number of words in a string
+# # Another Way for counting the number of words in a string
 
-def in_words(string):
-    a = string.split()
-    print(len(a))
+# def in_words(string):
+#     a = string.split()
+#     print(len(a))
     
-in_words("I love Python programming")
+# in_words("I love Python programming")
+
+
+# 5. Find the longest word in a string
+
+# string = "I love Python programming"
+# x = string.split()
+
+# print(max(x, key=len))
+
+# # Another Way for finding the longest word in a string
+
+# def longest_word(string):
+#     x = string.split()
+#     print(max(x, key=len))
+
+# longest_word("I love Python programming")
+
+# # Another Way for finding the longest word in a string
+
+# def in_words(string):
+#   count = 0
+#   longest = ""
+  
+#   words = string.split()
+  
+#   for word in words:
+#       if len(word) > count:
+#         count = len(word)
+#         longest = word
+    
+#   print(longest)
+
+# in_words("I love Python programming")
+
+# 6 Remove all spaces from a string
+
+def remove_space(string):
+    split = string.split()
+    result = "".join(split)
+    print(result)
+    
+
+remove_space("web 3 is cool")
+
+
+
+
