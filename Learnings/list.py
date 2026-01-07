@@ -79,15 +79,33 @@
 # print(sum)
 
 # 6. Count the number of even and odd numbers in a list
-list = [1,4,7,2,9]
-Even = 0
-Odd = 0
+# list = [1,4,7,2,9]
+# Even = 0
+# Odd = 0
+
+# for i in list:
+#     if i % 2 == 0:
+#         Even += 1
+#     else:
+#         Odd += 1
+            
+# print(Even)
+# print(Odd)
+
+# 7. Reverse a list without using .reverse() or slicing
+# list = [1,4,7,2,9]
+# new_list = len(list)
+
+# for i in range(new_list -1,-1,-1):
+#     print(list[i])
+
+# 8. Remove duplicate elements from a list (keep original order)
+list = [1,2,2,3,1]
+new_list = []
 
 for i in list:
-    if i % 2 == 0:
-        Even += 1
-    else:
-        Odd += 1
-            
-print(Even)
-print(Odd)
+    if i not in new_list:
+        new_list.append(i)
+    
+    
+print(new_list)
