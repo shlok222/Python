@@ -70,10 +70,24 @@
 
 
 # 5. Calculate the sum of all elements in a list
+# list = [1,4,7,2,9]
+# sum  = 0
+
+# for i in list:
+#     sum += i
+    
+# print(sum)
+
+# 6. Count the number of even and odd numbers in a list
 list = [1,4,7,2,9]
-sum  = 0
+Even = 0
+Odd = 0
 
 for i in list:
-    sum += i
-    
-print(sum)
+    if i % 2 == 0:
+        Even += 1
+    else:
+        Odd += 1
+            
+print(Even)
+print(Odd)
