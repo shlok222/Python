@@ -100,12 +100,20 @@
 #     print(list[i])
 
 # 8. Remove duplicate elements from a list (keep original order)
-list = [1,2,2,3,1]
-new_list = []
+# list = [1,2,2,3,1]
+# new_list = []
 
-for i in list:
-    if i not in new_list:
-        new_list.append(i)
+# for i in list:
+#     if i not in new_list:
+#         new_list.append(i)
     
     
-print(new_list)
+# print(new_list)
+
+# Find the second largest number in a list.
+
+# list = [2,5,8,1,9,10,14,55,7]
+# list.sort()
+
+# print(list[-2])
+
