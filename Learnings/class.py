@@ -284,3 +284,82 @@ Product.update_tax_rate(0.20)
 print(p1.tax_rate)
 
 print(p1.finalprice())
+
+######################################################## Questions ########################################################
+
+######################################################## Solutions ########################################################
+# class Animal:
+#     def __init__(self,name):
+#         self.name = name
+        
+#     def speak(self):
+#         print("Animal Speak")
+        
+# class Dog(Animal):
+#     pass
+
+# x = Dog("Liya")
+# print(x.name)
+
+# class Person:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+        
+# class Employee(Person):
+#     def __init__(self,name,age,emp_id):
+#         super().__init__(name,age)
+#         self.emp_id = emp_id
+        
+# e1 = Employee("Shlok",12,2)
+# e2 = Employee("Rohit",22,3)
+
+# print(f"The employee name is {e1.name} and his age is {e1.age} and his id is {e1.emp_id}")
+            
+# class Person:
+#     def __init__(self,fname,lname):
+#         self.fname = fname
+#         self.lname = lname
+        
+# class Student(Person):
+#     def __init__(self,fname,lname,roll_no):
+#         super().__init__(fname,lname)
+#         self.roll_no = roll_no
+        
+# s1 = Student("Shlok","Bhargude",20)
+
+# print(s1.fname)
+
+# print(s1.lname)
+# print(s1.roll_no)
+
+# class Vehicle:
+#     def start(self):
+#         print("Vehicle Started")
+        
+# class Bike(Vehicle):
+#     def start(self):
+#         print("Bike Started")
+        
+# b = Bike()
+# b.start()
+
+# class Account:
+#     def __init__(self, name, balance):
+#         self.name = name
+#         self.balance = balance
+        
+#     def show_balance(self):
+#         print(self.balance)
+        
+class SavingsAccount(Account):
+    def __init__(self, name, balance, interest_rate):
+        super().__init__(name, balance)
+        self.interest_rate = interest_rate
+    
+    def calculate_interest(self):
+        interest = (self.balance * self.interest_rate) / 100
+        print(f"Interest earned: {interest}")
+
+s1 = SavingsAccount("Shlok", 500, 2)
+s1.calculate_interest()
